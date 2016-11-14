@@ -1,0 +1,38 @@
+button
+{
+	cursor: pointer;
+	padding: 0;
+	margin-left: 10px;
+	background-color: white;
+	border: none;
+}
+.all-buttons-play{
+	background-color: white;
+	border: none;
+	float: right;
+}
+.all-buttons-stop, .all-buttons-pause{
+	background-color: white;
+	border: none;
+	float: right;
+	display: none;
+}
+#listWrapper{
+	width: 310px;
+	display: inline-block;
+	margin-top: 5px;
+}
+.angle-button{
+	vertical-align: top;
+	margin-left: 15px;
+}
+#myCanvas{
+	float: center;
+}
+#songList{
+	display: inline-block;
+}
+#player{
+	display: inline-block;
+	margin: 200px 0 0 100px;
+}
